@@ -1,0 +1,2 @@
+# Visual-Compiler-Simulator-with-Domain-Specific-Language-For-Data-Processing
+The *Visual Compiler Simulator with DSL for Data Processing* is a web-based system that processes CSV, Excel, and JSON files using custom DSL commands. It implements compiler design concepts like lexer, parser, and execution using Python, Flask, and Pandas, enabling users to perform data transformations easily without complex programming knowledge.
