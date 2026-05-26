@@ -1,0 +1,136 @@
+================================================================
+         DSL COMMAND REFERENCE - FULL DOCUMENTATION
+================================================================
+
+This DSL (Domain Specific Language) allows you to manipulate
+CSV, JSON, and Excel files using simple readable commands.
+
+----------------------------------------------------------------
+1. LOAD
+----------------------------------------------------------------
+Syntax  : LOAD "filename.csv"
+Purpose : Load a data file for processing.
+Example : LOAD "data.csv"
+Notes   : Supported formats: .csv, .json, .xlsx, .xls
+
+----------------------------------------------------------------
+2. SAVE
+----------------------------------------------------------------
+Syntax  : SAVE "filename.csv"
+Purpose : Save the current data to a file.
+Example : SAVE "output.csv"
+Notes   : Output format is determined by the file extension.
+          Supported: .csv, .json
+
+----------------------------------------------------------------
+3. DROP
+----------------------------------------------------------------
+Syntax  : DROP "col1"
+          DROP "col1", "col2"
+Purpose : Remove one or more columns from the dataset.
+Example : DROP "age"
+          DROP "age", "salary"
+
+----------------------------------------------------------------
+4. RENAME
+----------------------------------------------------------------
+Syntax  : RENAME "old" TO "new"
+Purpose : Rename a column from old name to new name.
+Example : RENAME "emp_id" TO "employee_id"
+
+----------------------------------------------------------------
+5. FILTER
+----------------------------------------------------------------
+Syntax  : FILTER "condition"
+Purpose : Keep only rows that match the given condition.
+Example : FILTER "age > 30"
+          FILTER "department == 'HR'"
+          FILTER "salary >= 50000 and age < 40"
+Notes   : Conditions support standard Python comparison operators:
+          ==, !=, >, <, >=, <=, and, or, not
+
+----------------------------------------------------------------
+6. GROUPBY
+----------------------------------------------------------------
+Syntax  : GROUPBY "col1" AGGREGATE "col2" WITH "function"
+Purpose : Group rows by a column and apply an aggregation.
+Example : GROUPBY "department" AGGREGATE "salary" WITH "mean"
+          GROUPBY "region" AGGREGATE "sales" WITH "sum"
+Supported functions:
+          sum, mean, min, max, count
+
+----------------------------------------------------------------
+7. SELECT
+----------------------------------------------------------------
+Syntax  : SELECT "col1", "col2"
+          SELECT *
+Purpose : Choose specific columns to keep in the result.
+Example : SELECT "name", "age", "department"
+          SELECT *
+
+----------------------------------------------------------------
+8. FETCH
+----------------------------------------------------------------
+Syntax  : FETCH "col1", "col2" WHERE "condition"
+          FETCH * WHERE "condition"
+Purpose : Retrieve specific columns with an optional filter.
+Example : FETCH "name", "salary" WHERE "salary > 60000"
+          FETCH * WHERE "age >= 25"
+
+----------------------------------------------------------------
+9. SORT
+----------------------------------------------------------------
+Syntax  : SORT "col1" ASC
+          SORT "col1" DESC
+Purpose : Sort the dataset by a column in ascending or
+          descending order.
+Example : SORT "salary" DESC
+          SORT "name" ASC
+
+----------------------------------------------------------------
+10. LIMIT
+----------------------------------------------------------------
+Syntax  : LIMIT n
+Purpose : Keep only the first n rows of the dataset.
+Example : LIMIT 100
+          LIMIT 50
+
+----------------------------------------------------------------
+11. FILL
+----------------------------------------------------------------
+Syntax  : FILL "col1" WITH "value"
+Purpose : Fill missing (null/NaN) values in a column.
+Example : FILL "salary" WITH "0"
+          FILL "department" WITH "Unknown"
+
+----------------------------------------------------------------
+12. MERGE
+----------------------------------------------------------------
+Syntax  : MERGE "file2.csv" ON "col1"
+Purpose : Join the current dataset with another file on a
+          common column.
+Example : MERGE "departments.csv" ON "dept_id"
+
+----------------------------------------------------------------
+NOTES
+----------------------------------------------------------------
+- Column names with spaces should be written in quotes.
+- String values in conditions must use single quotes inside
+  double quotes: FILTER "dept == 'HR'"
+- Commands are case-insensitive: FILTER = filter = Filter
+- Multiple commands can be chained together in a script.
+
+----------------------------------------------------------------
+EXAMPLE SCRIPT
+----------------------------------------------------------------
+LOAD "employees.csv"
+FILTER "age > 25"
+DROP "ssn", "password"
+RENAME "emp_id" TO "id"
+SORT "salary" DESC
+LIMIT 100
+SAVE "result.csv"
+
+================================================================
+              END OF DOCUMENTATION
+================================================================

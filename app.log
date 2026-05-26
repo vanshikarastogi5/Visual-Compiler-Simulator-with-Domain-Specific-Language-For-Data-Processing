@@ -1,0 +1,692 @@
+2025-05-21 21:15:10,332 [INFO]  * Restarting with stat
+2025-05-21 21:15:12,792 [WARNING]  * Debugger is active!
+2025-05-21 21:15:12,805 [INFO]  * Debugger PIN: 518-406-314
+2025-05-21 21:15:12,975 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-21 21:15:22,134 [INFO] 127.0.0.1 - - [21/May/2025 21:15:22] "GET / HTTP/1.1" 200 -
+2025-05-21 21:15:22,608 [INFO] 127.0.0.1 - - [21/May/2025 21:15:22] "GET /styles.css HTTP/1.1" 200 -
+2025-05-21 21:15:22,614 [INFO] 127.0.0.1 - - [21/May/2025 21:15:22] "GET /script.js HTTP/1.1" 200 -
+2025-05-21 21:15:23,537 [INFO] 127.0.0.1 - - [21/May/2025 21:15:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 21:17:15,064 [INFO] Received DSL Script:
+DROP 'id';
+SAVE;
+2025-05-21 21:17:15,133 [ERROR] Processing error: list index out of range
+2025-05-21 21:17:15,159 [INFO] 127.0.0.1 - - [21/May/2025 21:17:15] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-21 21:18:20,927 [INFO] Received DSL Script:
+LOAD;
+DROP 'id';
+RENAME 'host_Popularity_percentage' TO 'test';
+SAVE 'processed_data.csv';
+2025-05-21 21:18:23,978 [INFO] Saved processed file: backend\processed\processed_data.csv
+2025-05-21 21:18:23,996 [INFO] 127.0.0.1 - - [21/May/2025 21:18:23] "POST /run-script HTTP/1.1" 200 -
+2025-05-21 21:18:25,720 [INFO] 127.0.0.1 - - [21/May/2025 21:18:25] "GET /download/processed_data.csv HTTP/1.1" 200 -
+2025-05-21 21:19:05,005 [INFO] Received DSL Script:
+LOAD;
+DROP 'id';
+RENAME 'host_Popularity_percentage' TO 'test';
+SAVE 'processed_data.csv';
+2025-05-21 21:19:08,187 [INFO] Saved processed file: backend\processed\processed_data.csv
+2025-05-21 21:19:08,203 [INFO] 127.0.0.1 - - [21/May/2025 21:19:08] "POST /run-script HTTP/1.1" 200 -
+2025-05-21 21:19:10,676 [INFO] Received DSL Script:
+LOAD;
+DROP 'id';
+RENAME 'host_Popularity_percentage' TO 'test';
+SAVE 'processed_data.csv';
+2025-05-21 21:19:12,645 [INFO] 127.0.0.1 - - [21/May/2025 21:19:12] "GET /download/processed_data.csv HTTP/1.1" 200 -
+2025-05-21 21:19:14,576 [INFO] Saved processed file: backend\processed\processed_data.csv
+2025-05-21 21:19:14,606 [INFO] 127.0.0.1 - - [21/May/2025 21:19:14] "POST /run-script HTTP/1.1" 200 -
+2025-05-21 21:20:35,174 [INFO]  * Detected change in 'd:\\Projects\\DataScript_Compiler - v3\\backend\\app.py', reloading
+2025-05-21 21:20:35,485 [INFO]  * Restarting with stat
+2025-05-21 21:20:44,539 [WARNING]  * Debugger is active!
+2025-05-21 21:20:44,542 [INFO]  * Debugger PIN: 518-406-314
+2025-05-21 21:20:44,725 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-21 21:20:46,139 [INFO] 127.0.0.1 - - [21/May/2025 21:20:46] "GET /download/processed_data.csv HTTP/1.1" 200 -
+2025-05-21 21:21:06,348 [INFO] 127.0.0.1 - - [21/May/2025 21:21:06] "GET / HTTP/1.1" 200 -
+2025-05-21 21:21:06,447 [INFO] 127.0.0.1 - - [21/May/2025 21:21:06] "GET /styles.css HTTP/1.1" 200 -
+2025-05-21 21:21:06,451 [INFO] 127.0.0.1 - - [21/May/2025 21:21:06] "GET /script.js HTTP/1.1" 200 -
+2025-05-21 21:21:06,884 [INFO] 127.0.0.1 - - [21/May/2025 21:21:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-27 20:48:25,055 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 20:48:25,056 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 20:48:25,060 [INFO]  * Restarting with stat
+2026-04-27 20:48:26,626 [WARNING]  * Debugger is active!
+2026-04-27 20:48:26,631 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 20:48:49,925 [INFO] 127.0.0.1 - - [27/Apr/2026 20:48:49] "GET / HTTP/1.1" 200 -
+2026-04-27 20:48:49,938 [INFO] 127.0.0.1 - - [27/Apr/2026 20:48:49] "GET /styles.css HTTP/1.1" 200 -
+2026-04-27 20:48:49,939 [INFO] 127.0.0.1 - - [27/Apr/2026 20:48:49] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 20:48:59,385 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 20:48:59,386 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 20:48:59,931 [INFO] Saved processed file: backend\processed\processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv
+2026-04-27 20:48:59,942 [INFO] 127.0.0.1 - - [27/Apr/2026 20:48:59] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 20:49:02,400 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:49:02,400 [INFO] 127.0.0.1 - - [27/Apr/2026 20:49:02] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:49:23,986 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:49:23,987 [INFO] 127.0.0.1 - - [27/Apr/2026 20:49:23] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:49:32,595 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:49:32,596 [INFO] 127.0.0.1 - - [27/Apr/2026 20:49:32] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:50:30,632 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:50:30,632 [INFO] 127.0.0.1 - - [27/Apr/2026 20:50:30] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:50:34,707 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:50:34,707 [INFO] 127.0.0.1 - - [27/Apr/2026 20:50:34] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:50:35,583 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:50:35,584 [INFO] 127.0.0.1 - - [27/Apr/2026 20:50:35] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:50:36,242 [ERROR] Error sending file processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-27 20:50:36,243 [INFO] 127.0.0.1 - - [27/Apr/2026 20:50:36] "[35m[1mGET /download/processed_3ae798d5-68b6-4732-ba77-32ca5e314611.csv HTTP/1.1[0m" 500 -
+2026-04-27 20:54:56,650 [ERROR] Download requested but file not found: backend\processed\processed_xxx.json
+2026-04-27 20:54:56,652 [INFO] 127.0.0.1 - - [27/Apr/2026 20:54:56] "[33mGET /download/processed_xxx.json HTTP/1.1[0m" 404 -
+2026-04-27 20:54:56,716 [INFO] 127.0.0.1 - - [27/Apr/2026 20:54:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-27 20:59:44,309 [INFO]  * Detected change in 'c:\\Users\\Piyusha\\OneDrive\\Desktop\\DataScript_Compiler - v44\\backend\\app.py', reloading
+2026-04-27 20:59:44,457 [INFO]  * Restarting with stat
+2026-04-27 20:59:46,498 [WARNING]  * Debugger is active!
+2026-04-27 20:59:46,507 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 20:59:46,845 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 20:59:46,846 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 20:59:46,853 [INFO]  * Restarting with stat
+2026-04-27 20:59:48,808 [WARNING]  * Debugger is active!
+2026-04-27 20:59:48,815 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 20:59:54,929 [INFO] 127.0.0.1 - - [27/Apr/2026 20:59:54] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-27 20:59:54,951 [INFO] 127.0.0.1 - - [27/Apr/2026 20:59:54] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 20:59:54,953 [INFO] 127.0.0.1 - - [27/Apr/2026 20:59:54] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-04-27 21:00:04,256 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 21:00:04,259 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 21:00:06,412 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_0cfba2a1-9b4c-49d6-896c-1f6f6b895c4c.csv
+2026-04-27 21:00:06,439 [INFO] 127.0.0.1 - - [27/Apr/2026 21:00:06] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 21:00:08,117 [INFO] 127.0.0.1 - - [27/Apr/2026 21:00:08] "GET /download/processed_0cfba2a1-9b4c-49d6-896c-1f6f6b895c4c.csv HTTP/1.1" 200 -
+2026-04-27 21:01:02,390 [INFO] 127.0.0.1 - - [27/Apr/2026 21:01:02] "[33mGET /Documentation.txt HTTP/1.1[0m" 404 -
+2026-04-27 21:07:43,963 [INFO] 127.0.0.1 - - [27/Apr/2026 21:07:43] "[33mGET /Documentation.txt HTTP/1.1[0m" 404 -
+2026-04-27 21:21:51,994 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 21:21:52,000 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 21:21:52,006 [INFO]  * Restarting with stat
+2026-04-27 21:21:54,167 [WARNING]  * Debugger is active!
+2026-04-27 21:21:54,174 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 21:22:23,054 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:23] "GET / HTTP/1.1" 200 -
+2026-04-27 21:22:23,106 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:23] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 21:22:23,217 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:23] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 21:22:33,216 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 21:22:33,220 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 21:22:36,425 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_b89ec34d-e005-4390-8a15-90bdec07e9ef.csv
+2026-04-27 21:22:36,474 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:36] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 21:22:38,758 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:38] "GET /download/processed_b89ec34d-e005-4390-8a15-90bdec07e9ef.csv HTTP/1.1" 200 -
+2026-04-27 21:22:51,102 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:51] "[33mGET /Documentation.txt HTTP/1.1[0m" 404 -
+2026-04-27 21:22:55,763 [INFO] 127.0.0.1 - - [27/Apr/2026 21:22:55] "[33mGET /Documentation.txt HTTP/1.1[0m" 404 -
+2026-04-27 21:24:12,470 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 21:24:12,475 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 21:24:12,479 [INFO]  * Restarting with stat
+2026-04-27 21:24:14,429 [WARNING]  * Debugger is active!
+2026-04-27 21:24:14,435 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 21:24:19,099 [INFO] 127.0.0.1 - - [27/Apr/2026 21:24:19] "GET / HTTP/1.1" 200 -
+2026-04-27 21:24:19,153 [INFO] 127.0.0.1 - - [27/Apr/2026 21:24:19] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 21:24:19,165 [INFO] 127.0.0.1 - - [27/Apr/2026 21:24:19] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 21:24:35,227 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 21:24:35,229 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 21:24:38,272 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_5ec954e3-052c-4319-b166-b96093d57198.csv
+2026-04-27 21:24:38,313 [INFO] 127.0.0.1 - - [27/Apr/2026 21:24:38] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 21:25:24,552 [INFO] 127.0.0.1 - - [27/Apr/2026 21:25:24] "[33mGET /Documentation.txt HTTP/1.1[0m" 404 -
+2026-04-27 22:03:33,170 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 22:03:33,172 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 22:03:33,177 [INFO]  * Restarting with stat
+2026-04-27 22:03:35,639 [WARNING]  * Debugger is active!
+2026-04-27 22:03:35,646 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 22:03:38,344 [INFO] 127.0.0.1 - - [27/Apr/2026 22:03:38] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-27 22:03:38,372 [INFO] 127.0.0.1 - - [27/Apr/2026 22:03:38] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 22:03:38,377 [INFO] 127.0.0.1 - - [27/Apr/2026 22:03:38] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-04-27 22:03:48,438 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 22:03:48,440 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 22:03:51,273 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_36629714-7bf6-42a1-9636-6cf12698e8dc.csv
+2026-04-27 22:03:51,316 [INFO] 127.0.0.1 - - [27/Apr/2026 22:03:51] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 22:03:53,560 [INFO] 127.0.0.1 - - [27/Apr/2026 22:03:53] "GET /download/processed_36629714-7bf6-42a1-9636-6cf12698e8dc.csv HTTP/1.1" 200 -
+2026-04-27 22:04:54,657 [INFO] 127.0.0.1 - - [27/Apr/2026 22:04:54] "GET /Documentation.txt HTTP/1.1" 200 -
+2026-04-27 22:07:38,765 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 22:07:38,768 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 22:07:38,772 [INFO]  * Restarting with stat
+2026-04-27 22:07:40,375 [WARNING]  * Debugger is active!
+2026-04-27 22:07:40,381 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 22:07:47,319 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:47] "GET / HTTP/1.1" 200 -
+2026-04-27 22:07:47,357 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:47] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 22:07:47,448 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:47] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 22:07:51,362 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:51] "GET / HTTP/1.1" 200 -
+2026-04-27 22:07:51,416 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:51] "GET /styles.css HTTP/1.1" 200 -
+2026-04-27 22:07:51,418 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:51] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 22:07:51,602 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-27 22:07:53,156 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:53] "GET / HTTP/1.1" 200 -
+2026-04-27 22:07:53,199 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:53] "GET /styles.css HTTP/1.1" 200 -
+2026-04-27 22:07:53,204 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:53] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 22:07:53,356 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-27 22:07:54,412 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:54] "GET / HTTP/1.1" 200 -
+2026-04-27 22:07:54,458 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:54] "GET /styles.css HTTP/1.1" 200 -
+2026-04-27 22:07:54,467 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:54] "GET /script.js HTTP/1.1" 200 -
+2026-04-27 22:07:54,680 [INFO] 127.0.0.1 - - [27/Apr/2026 22:07:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-27 22:08:01,019 [INFO] 127.0.0.1 - - [27/Apr/2026 22:08:01] "GET /Documentation.txt HTTP/1.1" 200 -
+2026-04-27 22:08:05,576 [INFO] 127.0.0.1 - - [27/Apr/2026 22:08:05] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-27 22:10:01,560 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:01] "GET / HTTP/1.1" 200 -
+2026-04-27 22:10:01,592 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:01] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 22:10:01,596 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:01] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-04-27 22:10:10,878 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 22:10:10,881 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 22:10:13,592 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_f5978bde-e0da-43db-b73d-eeaa0ec71038.csv
+2026-04-27 22:10:13,633 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:13] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 22:10:15,572 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:15] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-27 22:10:59,145 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:59] "GET / HTTP/1.1" 200 -
+2026-04-27 22:10:59,196 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:59] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 22:10:59,201 [INFO] 127.0.0.1 - - [27/Apr/2026 22:10:59] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-04-27 22:11:08,274 [INFO] 127.0.0.1 - - [27/Apr/2026 22:11:08] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-27 22:11:12,256 [INFO] 127.0.0.1 - - [27/Apr/2026 22:11:12] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-27 22:11:32,476 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 22:11:32,478 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 22:11:35,198 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_928c6cea-e638-4440-8595-1f98aebde3be.csv
+2026-04-27 22:11:35,237 [INFO] 127.0.0.1 - - [27/Apr/2026 22:11:35] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 22:11:37,393 [INFO] 127.0.0.1 - - [27/Apr/2026 22:11:37] "GET /download/processed_928c6cea-e638-4440-8595-1f98aebde3be.csv HTTP/1.1" 200 -
+2026-04-27 22:12:44,008 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-27 22:12:44,013 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-27 22:12:44,017 [INFO]  * Restarting with stat
+2026-04-27 22:12:45,633 [WARNING]  * Debugger is active!
+2026-04-27 22:12:45,639 [INFO]  * Debugger PIN: 536-299-333
+2026-04-27 22:12:49,013 [INFO] 127.0.0.1 - - [27/Apr/2026 22:12:49] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-27 22:12:49,040 [INFO] 127.0.0.1 - - [27/Apr/2026 22:12:49] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-27 22:12:49,048 [INFO] 127.0.0.1 - - [27/Apr/2026 22:12:49] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-04-27 22:12:59,819 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 22:12:59,821 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 22:13:02,985 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_f8f8ebc7-0c66-4488-b49e-21a5cf58f8e9.csv
+2026-04-27 22:13:03,034 [INFO] 127.0.0.1 - - [27/Apr/2026 22:13:03] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 22:13:04,433 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-27 22:13:04,437 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-27 22:13:07,492 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_08d71fb8-d3b9-4131-ac18-2a80a4041640.csv
+2026-04-27 22:13:07,538 [INFO] 127.0.0.1 - - [27/Apr/2026 22:13:07] "POST /run-script HTTP/1.1" 200 -
+2026-04-27 22:13:07,651 [INFO] 127.0.0.1 - - [27/Apr/2026 22:13:07] "GET /download/processed_08d71fb8-d3b9-4131-ac18-2a80a4041640.csv HTTP/1.1" 200 -
+2026-04-27 22:13:12,751 [INFO] 127.0.0.1 - - [27/Apr/2026 22:13:12] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-27 22:13:17,835 [INFO] 127.0.0.1 - - [27/Apr/2026 22:13:17] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-27 22:13:31,058 [INFO] 127.0.0.1 - - [27/Apr/2026 22:13:31] "GET /download/app.log HTTP/1.1" 200 -
+2026-04-28 10:28:18,532 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-28 10:28:18,535 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-28 10:28:18,542 [INFO]  * Restarting with stat
+2026-04-28 10:28:20,102 [WARNING]  * Debugger is active!
+2026-04-28 10:28:20,116 [INFO]  * Debugger PIN: 536-299-333
+2026-04-28 10:28:28,088 [INFO] 127.0.0.1 - - [28/Apr/2026 10:28:28] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-28 10:28:28,149 [INFO] 127.0.0.1 - - [28/Apr/2026 10:28:28] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-04-28 10:28:28,225 [INFO] 127.0.0.1 - - [28/Apr/2026 10:28:28] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-04-28 10:28:30,244 [INFO] 127.0.0.1 - - [28/Apr/2026 10:28:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-28 10:29:32,579 [INFO] Received DSL Script:
+DROP 'Podcast_Name';
+2026-04-28 10:29:32,580 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Podcast_Name'])
+2026-04-28 10:29:36,125 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_7b600339-892c-47bd-b03a-4667f23d846d.csv
+2026-04-28 10:29:36,185 [INFO] 127.0.0.1 - - [28/Apr/2026 10:29:36] "POST /run-script HTTP/1.1" 200 -
+2026-04-28 10:30:08,617 [INFO] 127.0.0.1 - - [28/Apr/2026 10:30:08] "GET /download/processed_7b600339-892c-47bd-b03a-4667f23d846d.csv HTTP/1.1" 200 -
+2026-04-28 10:30:14,772 [INFO] 127.0.0.1 - - [28/Apr/2026 10:30:14] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-04-28 10:31:00,195 [INFO] 127.0.0.1 - - [28/Apr/2026 10:31:00] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-05-26 19:29:18,689 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-26 19:29:18,692 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-26 19:29:18,697 [INFO]  * Restarting with stat
+2026-05-26 19:29:20,120 [WARNING]  * Debugger is active!
+2026-05-26 19:29:20,125 [INFO]  * Debugger PIN: 983-317-868
+2026-05-26 19:29:25,190 [INFO] 127.0.0.1 - - [26/May/2026 19:29:25] "GET / HTTP/1.1" 200 -
+2026-05-26 19:29:25,336 [INFO] 127.0.0.1 - - [26/May/2026 19:29:25] "GET /styles.css HTTP/1.1" 200 -
+2026-05-26 19:29:25,392 [INFO] 127.0.0.1 - - [26/May/2026 19:29:25] "GET /script.js HTTP/1.1" 200 -
+2026-05-26 19:29:25,603 [INFO] 127.0.0.1 - - [26/May/2026 19:29:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-26 19:29:40,049 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,086 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,089 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,717 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,743 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,747 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,931 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,950 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:29:40,952 [INFO] 127.0.0.1 - - [26/May/2026 19:29:40] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:30:32,628 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-26 19:30:32,634 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-26 19:30:32,637 [INFO]  * Restarting with stat
+2026-05-26 19:30:34,025 [WARNING]  * Debugger is active!
+2026-05-26 19:30:34,030 [INFO]  * Debugger PIN: 983-317-868
+2026-05-26 19:30:43,995 [INFO] 127.0.0.1 - - [26/May/2026 19:30:43] "GET / HTTP/1.1" 200 -
+2026-05-26 19:30:44,038 [INFO] 127.0.0.1 - - [26/May/2026 19:30:44] "GET /styles.css HTTP/1.1" 200 -
+2026-05-26 19:30:44,045 [INFO] 127.0.0.1 - - [26/May/2026 19:30:44] "GET /script.js HTTP/1.1" 200 -
+2026-05-26 19:30:44,466 [INFO] 127.0.0.1 - - [26/May/2026 19:30:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-26 19:30:56,313 [INFO] 127.0.0.1 - - [26/May/2026 19:30:56] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:30:56,358 [INFO] 127.0.0.1 - - [26/May/2026 19:30:56] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:30:56,381 [INFO] 127.0.0.1 - - [26/May/2026 19:30:56] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:31:16,926 [INFO] 127.0.0.1 - - [26/May/2026 19:31:16] "GET /Documentation.txt HTTP/1.1" 200 -
+2026-05-26 19:31:40,938 [INFO] Received DSL Script:
+DROP 'Episode_Title';
+2026-05-26 19:31:40,943 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Episode_Title'])
+2026-05-26 19:31:44,564 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_739d9dd9-3112-464b-ae87-ca9a3f399f02.csv
+2026-05-26 19:31:44,677 [INFO] 127.0.0.1 - - [26/May/2026 19:31:44] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:31:47,283 [INFO] 127.0.0.1 - - [26/May/2026 19:31:47] "GET /download/processed_739d9dd9-3112-464b-ae87-ca9a3f399f02.csv HTTP/1.1" 200 -
+2026-05-26 19:33:14,922 [INFO] Received DSL Script:
+ADD 'Episode';
+2026-05-26 19:33:14,925 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (p)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (o)
+# TODO: Implement MISMATCH (d)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:33:19,388 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_18f2f115-8aee-4f39-beb7-aef372cb057a.csv
+2026-05-26 19:33:19,465 [INFO] 127.0.0.1 - - [26/May/2026 19:33:19] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:33:21,953 [INFO] Received DSL Script:
+ADD 'Episode';
+2026-05-26 19:33:21,956 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (p)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (o)
+# TODO: Implement MISMATCH (d)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:33:25,798 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_4b93af1c-3e2e-4152-9949-182c7e7c0bce.csv
+2026-05-26 19:33:25,841 [INFO] 127.0.0.1 - - [26/May/2026 19:33:25] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:33:30,179 [INFO] 127.0.0.1 - - [26/May/2026 19:33:30] "[36mGET /Documentation.txt HTTP/1.1[0m" 304 -
+2026-05-26 19:34:04,312 [INFO] Received DSL Script:
+SAVE "filename.csv";
+2026-05-26 19:34:04,329 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (V)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (")
+# TODO: Implement MISMATCH (f)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (l)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (n)
+# TODO: Implement MISMATCH (a)
+# TODO: Implement MISMATCH (m)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (.)
+# TODO: Implement MISMATCH (c)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (v)
+# TODO: Implement MISMATCH (")
+2026-05-26 19:34:07,660 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_73dcdf54-28b6-4681-ae69-4743e03eea75.csv
+2026-05-26 19:34:07,711 [INFO] 127.0.0.1 - - [26/May/2026 19:34:07] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:34:09,399 [INFO] Received DSL Script:
+SAVE "filename.csv";
+2026-05-26 19:34:09,399 [INFO] Received DSL Script:
+SAVE "filename.csv";
+2026-05-26 19:34:09,407 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (V)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (")
+# TODO: Implement MISMATCH (f)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (l)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (n)
+# TODO: Implement MISMATCH (a)
+# TODO: Implement MISMATCH (m)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (.)
+# TODO: Implement MISMATCH (c)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (v)
+# TODO: Implement MISMATCH (")
+2026-05-26 19:34:09,409 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (V)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (")
+# TODO: Implement MISMATCH (f)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (l)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (n)
+# TODO: Implement MISMATCH (a)
+# TODO: Implement MISMATCH (m)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (.)
+# TODO: Implement MISMATCH (c)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (v)
+# TODO: Implement MISMATCH (")
+2026-05-26 19:34:11,209 [INFO] Received DSL Script:
+SAVE "filename.csv";
+2026-05-26 19:34:11,215 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (V)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (")
+# TODO: Implement MISMATCH (f)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (l)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (n)
+# TODO: Implement MISMATCH (a)
+# TODO: Implement MISMATCH (m)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (.)
+# TODO: Implement MISMATCH (c)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (v)
+# TODO: Implement MISMATCH (")
+2026-05-26 19:34:12,126 [INFO] Received DSL Script:
+SAVE "filename.csv";
+2026-05-26 19:34:12,198 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (V)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (")
+# TODO: Implement MISMATCH (f)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (l)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (n)
+# TODO: Implement MISMATCH (a)
+# TODO: Implement MISMATCH (m)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (.)
+# TODO: Implement MISMATCH (c)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (v)
+# TODO: Implement MISMATCH (")
+2026-05-26 19:34:20,752 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_462403d0-fe1e-4437-82c4-d5f08eee67af.csv
+2026-05-26 19:34:20,939 [INFO] 127.0.0.1 - - [26/May/2026 19:34:20] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:34:21,936 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_863b5360-1bd5-4374-9fc8-301487c4b879.csv
+2026-05-26 19:34:22,028 [INFO] 127.0.0.1 - - [26/May/2026 19:34:22] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:34:22,174 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_80919889-5af2-412b-a90b-a32512ab7d81.csv
+2026-05-26 19:34:22,217 [INFO] 127.0.0.1 - - [26/May/2026 19:34:22] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:34:22,271 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_339c0cca-5fce-4e6f-8c3a-f86fba7d7bb0.csv
+2026-05-26 19:34:22,298 [INFO] 127.0.0.1 - - [26/May/2026 19:34:22] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:35:01,871 [INFO] 127.0.0.1 - - [26/May/2026 19:35:01] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:35:01,940 [INFO] 127.0.0.1 - - [26/May/2026 19:35:01] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:35:01,946 [INFO] 127.0.0.1 - - [26/May/2026 19:35:01] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:35:10,640 [INFO] Received DSL Script:
+SAVE "filename.csv";
+2026-05-26 19:35:10,643 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (V)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (")
+# TODO: Implement MISMATCH (f)
+# TODO: Implement MISMATCH (i)
+# TODO: Implement MISMATCH (l)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (n)
+# TODO: Implement MISMATCH (a)
+# TODO: Implement MISMATCH (m)
+# TODO: Implement MISMATCH (e)
+# TODO: Implement MISMATCH (.)
+# TODO: Implement MISMATCH (c)
+# TODO: Implement MISMATCH (s)
+# TODO: Implement MISMATCH (v)
+# TODO: Implement MISMATCH (")
+2026-05-26 19:35:13,650 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_defce7b8-60fb-4cd0-b76d-b94e1ba481cb.csv
+2026-05-26 19:35:13,684 [INFO] 127.0.0.1 - - [26/May/2026 19:35:13] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:35:29,370 [INFO] Received DSL Script:
+TAIL '6';
+2026-05-26 19:35:29,377 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (6)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:35:32,323 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_c60060c7-899a-4b86-95ea-8e1cb119f0b1.csv
+2026-05-26 19:35:32,358 [INFO] 127.0.0.1 - - [26/May/2026 19:35:32] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:35:43,540 [INFO] Received DSL Script:
+TAIL '6';
+2026-05-26 19:35:43,547 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (6)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:35:46,622 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_c6232b80-e85c-45ca-8dfd-bfaeda6b7225.csv
+2026-05-26 19:35:46,659 [INFO] 127.0.0.1 - - [26/May/2026 19:35:46] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:35:50,621 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:35:50,623 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:35:53,606 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_2de1fb78-275c-4071-83b7-251aa6887899.csv
+2026-05-26 19:35:53,639 [INFO] 127.0.0.1 - - [26/May/2026 19:35:53] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:35:59,968 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:35:59,971 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:35:59,986 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:36:00,002 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:36:01,695 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:36:01,705 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:36:09,237 [INFO] 127.0.0.1 - - [26/May/2026 19:36:09] "[31m[1mPOST /run-script HTTP/1.1[0m" 400 -
+2026-05-26 19:36:09,244 [INFO] 127.0.0.1 - - [26/May/2026 19:36:09] "[31m[1mPOST /run-script HTTP/1.1[0m" 400 -
+2026-05-26 19:36:10,133 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_5298541d-be30-41e0-9cb8-ac1f3affd12d.csv
+2026-05-26 19:36:10,266 [INFO] 127.0.0.1 - - [26/May/2026 19:36:10] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:36:10,767 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_3d39d447-16ea-44fb-98c3-dcc3cd7da772.csv
+2026-05-26 19:36:10,907 [INFO] 127.0.0.1 - - [26/May/2026 19:36:10] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:36:11,151 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:36:11,167 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:36:11,358 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_5c4aebaf-2342-400d-83f3-8569a076d823.csv
+2026-05-26 19:36:11,493 [INFO] 127.0.0.1 - - [26/May/2026 19:36:11] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:36:11,785 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:36:11,810 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:36:13,410 [INFO] Received DSL Script:
+TAIL '3';
+2026-05-26 19:36:13,438 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (3)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:36:20,434 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_b60c134b-4bbc-4eb0-ac22-09cb551f8386.csv
+2026-05-26 19:36:20,538 [INFO] 127.0.0.1 - - [26/May/2026 19:36:20] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:36:21,217 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_d92cf41e-72c3-455c-97fe-36070032b2c0.csv
+2026-05-26 19:36:21,296 [INFO] 127.0.0.1 - - [26/May/2026 19:36:21] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:36:21,730 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_c3fbff5b-997c-420c-9c27-1287d4148ce4.csv
+2026-05-26 19:36:21,762 [INFO] 127.0.0.1 - - [26/May/2026 19:36:21] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:38:44,307 [INFO] 127.0.0.1 - - [26/May/2026 19:38:44] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:38:44,421 [INFO] 127.0.0.1 - - [26/May/2026 19:38:44] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:38:44,524 [INFO] 127.0.0.1 - - [26/May/2026 19:38:44] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:39:03,477 [INFO] Received DSL Script:
+'DROP_DUPLICATES';
+2026-05-26 19:39:03,485 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (R)
+# TODO: Implement MISMATCH (O)
+# TODO: Implement MISMATCH (P)
+# TODO: Implement MISMATCH (_)
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (U)
+# TODO: Implement MISMATCH (P)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (C)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:39:03,513 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_aa1db6d5-a029-450b-b1b1-974705e161dd.csv
+2026-05-26 19:39:03,543 [INFO] 127.0.0.1 - - [26/May/2026 19:39:03] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:39:08,393 [INFO] Received DSL Script:
+'DROP_DUPLICATES';
+2026-05-26 19:39:08,403 [INFO] Generated code:
+import pandas as pd
+
+# TODO: Implement MISMATCH (')
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (R)
+# TODO: Implement MISMATCH (O)
+# TODO: Implement MISMATCH (P)
+# TODO: Implement MISMATCH (_)
+# TODO: Implement MISMATCH (D)
+# TODO: Implement MISMATCH (U)
+# TODO: Implement MISMATCH (P)
+# TODO: Implement MISMATCH (L)
+# TODO: Implement MISMATCH (I)
+# TODO: Implement MISMATCH (C)
+# TODO: Implement MISMATCH (A)
+# TODO: Implement MISMATCH (T)
+# TODO: Implement MISMATCH (E)
+# TODO: Implement MISMATCH (S)
+# TODO: Implement MISMATCH (')
+2026-05-26 19:39:08,425 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_60577f25-84ce-4286-906c-6185db534894.csv
+2026-05-26 19:39:08,450 [INFO] 127.0.0.1 - - [26/May/2026 19:39:08] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:40:09,107 [INFO] Received DSL Script:
+DROP 'Episode_Length_minutes';
+2026-05-26 19:40:09,112 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Episode_Length_minutes'])
+2026-05-26 19:40:12,393 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_89448ea6-a435-4ee5-be91-892f34ffc4cd.csv
+2026-05-26 19:40:12,426 [INFO] 127.0.0.1 - - [26/May/2026 19:40:12] "POST /run-script HTTP/1.1" 200 -
+2026-05-26 19:40:21,776 [INFO] 127.0.0.1 - - [26/May/2026 19:40:21] "[36mGET / HTTP/1.1[0m" 304 -
+2026-05-26 19:40:21,877 [INFO] 127.0.0.1 - - [26/May/2026 19:40:21] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2026-05-26 19:40:21,893 [INFO] 127.0.0.1 - - [26/May/2026 19:40:21] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-05-26 19:40:31,461 [INFO] Received DSL Script:
+DROP 'Episode_Length_minutes';
+2026-05-26 19:40:31,463 [INFO] Generated code:
+import pandas as pd
+
+df = df.drop(columns=['Episode_Length_minutes'])
+2026-05-26 19:40:33,547 [INFO] Saved processed file: c:\Users\Piyusha\OneDrive\Desktop\DataScript_Compiler - v44\backend\processed\processed_0d114555-0662-45d4-bd71-e75aa6e206bd.csv
+2026-05-26 19:40:33,577 [INFO] 127.0.0.1 - - [26/May/2026 19:40:33] "POST /run-script HTTP/1.1" 200 -
